@@ -1,5 +1,6 @@
 # Content
 - {CAD models} contains all the 3D modeled parts and assembly of the fully-autonomous driving vehicle
+- {STL models} contains all the 3D printed parts of traffic signs,parking walls, clamps, covers, etc...
 - {T-photos} contains 2 photos of the team (an official one and one funny photo with all team members)
 - {V-photos} contains 6 photos of the vehicle (from every side, from top and bottom)
 - {Video} contains the video.md file with the link to a video where driving demonstration exists
