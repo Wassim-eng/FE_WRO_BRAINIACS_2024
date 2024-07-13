@@ -1,5 +1,6 @@
 # Content
 - {CAD models} contains all the 3D modeled parts and assembly of the fully-autonomous driving vehicle
+- {STL models} contains all the 3D printed parts of traffic signs,parking walls, clamps, covers, etc...
 - {T-photos} contains 2 photos of the team (an official one and one funny photo with all team members)
 - {V-photos} contains 6 photos of the vehicle (from every side, from top and bottom)
 - {Video} contains the video.md file with the link to a video where driving demonstration exists
@@ -14,7 +15,7 @@ In 35 days, Team Brainiacs has developed a self-driving autonomous car for the 2
 
 # Materials used:
 
-- Raspberry Pi 5  
+- Raspberry Pi 5 8GB
 - Logitech C270 camera
 - Arduino Uno
 - 10000mAh powerbank
@@ -30,6 +31,6 @@ In 35 days, Team Brainiacs has developed a self-driving autonomous car for the 2
 - Arduino C++
 - Python
 
-The code for the self-driving autonomous race robotic car consists of several modules that are related to the electromechanical components of the vehicle. The Jetson Nano module runs the computer vision algorithms that analyze camera data to detect obstacles in the car's path. The Arduino Uno module is responsible for controlling the motors, servos, and sensors that enable the car to move and navigate. The MPU6050 gyroscope sensor is used for PID control, which helps to maintain the car's stability and balance while driving. The TCS34725 color sensor detects colors in the environment, which can be used to help the car navigate.
+The code for the self-driving autonomous race robotic car consists of several modules that are related to the electromechanical components of the vehicle. The Raspberry Pi 5 module runs the computer vision algorithms that analyze camera data to detect obstacles in the car's path. The Arduino Uno module is responsible for controlling the motors, servos, and sensors that enable the car to move and navigate. The MPU6050 gyroscope sensor is used for PID control, which helps to maintain the car's stability and balance while driving. The TCS34725 color sensor detects colors in the environment, which can be used to help the car navigate.
 
-To build and compile the code for the self-driving autonomous race robotic car, the Arduino IDE was used to program the Arduino boards using the C++ language. The Jetson Nano module used Linux and the Python language to perform computer vision tasks. Manual compiling was done using the Linux command prompt on the Jetson Nano. The code for the Arduino boards was compiled into a binary file that could be uploaded to the boards using a USB cable or a wireless connection. The code for the Jetson Nano was written in Python and compiled manually using the Linux command prompt. Once the code was compiled, it could be uploaded to the controllers and executed to control the sensors and actuators and enable the car to drive autonomously. It is important to test the car in a safe environment and make adjustments to the code as needed to improve performance and reliability.
+To build and compile the code for the self-driving autonomous race robotic car, the Arduino IDE was used to program the Arduino boards using the C++ language. The Raspberry Pi 5 module used Linux-debian based operating system and the Python language to perform computer vision tasks. Manual compiling was done using the Linux command prompt on the Raspberry Pi. The code for the Arduino board was compiled into a binary file that could be uploaded to the boards using a USB cable or a wireless connection. The code for the Pi was written in Python and compiled manually using the Linux command prompt. Once the code was compiled, it could be uploaded to the controllers and executed to control the sensors and actuators and enable the car to drive autonomously. It is important to test the car in a safe environment and make adjustments to the code as needed to improve performance and reliability.
