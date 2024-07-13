@@ -10,7 +10,7 @@
 
 # Introduction  
 
-In 35 days, Team Brainiacs has developed a self-driving autonomous car for the 2024 WRO future engineers’ competition. This car uses the principles of computer vision and PID to complete the specified rounds of this challenge. The car uses PID to control its movement and steering while using a color sensor to detect the corners of the playfield and turn accordingly. Moreover, computer vision was implemented using NVIDIA jetson NANO and raspberry PI V2.1 camera to detect the traffic signs and steer the car to complete the whole track.
+In 35 days, Team Brainiacs has developed a self-driving autonomous car for the 2024 WRO future engineers’ competition. This car uses the principles of computer vision and PID to complete the specified rounds of this challenge. The car uses PID to control its movement and steering while using a color sensor to detect the corners of the playfield and turn accordingly. Moreover, computer vision was implemented using a Raspberry Pi 5 and a Logitech C270 camera a to detect the traffic signs and steer the car to complete the whole track.
 
 # Materials used:
 
