@@ -69,7 +69,7 @@ void loop() {
     // Update MPU6050 data
     mpu6050.update();
     error = mpu6050.getAngleZ();
-
+    Serial.print(error);
     // PID control
     error = setpoint - error;
     Pr = error;
