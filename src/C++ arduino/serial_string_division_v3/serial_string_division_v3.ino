@@ -31,7 +31,7 @@ void loop() {
           // Extract the angle part as a substring after the color
           String anglePart = beforeComma.substring(1);  // Skip the color character
           intValue = anglePart.toInt();                 // Convert angle part to integer
-        } 
+        }
 
         // Extract distance part after the comma
         String distancePart = receivedString.substring(commaIndex + 1);  // Get substring after comma
@@ -49,7 +49,7 @@ void loop() {
           case 'g':
             if (distance > 200) {
               Serial.print("GREEN detected and distance is more than 200 by: ");
-              Serial.println(distance-200);
+              Serial.println(distance - 200);
               // Example: Move Towards it (adjust until angle recieved = 0) call a function for adjustment
               CNTR_ANG(intValue);
 
@@ -58,14 +58,13 @@ void loop() {
               Serial.println("Turn inside immediately.");
               // Example: Turn Servo Inside
               Green_maneuver(intValue);
-
             }
             break;
 
           case 'r':
             if (distance > 200) {
               Serial.print("RED detected and distance is more than 200 by: ");
-              Serial.println(distance-200);
+              Serial.println(distance - 200);
               // Example: Move Towards it (adjust until angle recieved = 0) call a function for adjustment
               CNTR_ANG(intValue);
             } else {
@@ -81,26 +80,21 @@ void loop() {
             // Handle case where an unknown color is received
             break;
         }
-      } 
+      }
     }
   }
+  
 }
 
 
-void CNTR_ANG(int value){
-  if(intValue!=0){
-//myservo.write(servo_center + intValue)
+void CNTR_ANG(int value) {
+  if (intValue != 0) {
+    //myservo.write(servo_center + intValue)
+  } else {
+    Serial.print("CENTERRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEED");
   }
-  else{
-      Serial.print("CENTERRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEED");
-  }
 }
-void Green_maneuver(int value){
-  
-  
+void Green_maneuver(int value) {
 }
-void Red_maneuver(int value){
-  
+void Red_maneuver(int value) {
 }
-
-
