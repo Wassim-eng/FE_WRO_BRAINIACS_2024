@@ -20,17 +20,29 @@ Our team’s work was based on the popular saying “ one hand can’t clap alon
 # Materials used:
 
 •	Raspberry Pi 5 8GB Arduino UNO R3
+
 •	GY-87 gyroscope
+
 •	Adafruit TCS34725 color sensor
+
 •	Logitech C270 720p30 webcam
+
 •	1 High Speed DC motor
+
 •	1 Mg995 geared servo motor
+
 •	4x 4800mAh Lithium-Ion battery 18650 sticks
+
 •	L298N Dual H-bridge Motor controller
+
 •	Auxiliary 3D printed parts and laser cut chassis
+
 •	Power bank 10000mAh
+
 •	Switch module 
+
 •	Tactile Push Button
+
 •	LM2596S Step-down buck converter
 
 
